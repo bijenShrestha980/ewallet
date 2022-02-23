@@ -1,0 +1,62 @@
+/*# sourceMappingURL=custom.min.css.map */
+.card-header-container {
+  background: #f6f6f6;
+  padding: 20px 15px;
+  border: 1px dashed #c7c8d9;
+  text-align: center;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-bottom: 15px;
+}
+.card-header-container .card-header-title {
+  font-weight: 600;
+}
+.card-header-container .card-header-img-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.card-header-container .card-header-img-container .card-header-img {
+  width: 50px;
+}
+.card-header-container .card-header-img-container .card-header-img img {
+  width: 100%;
+}
+.card-number-form {
+  display: flex;
+}
+.card-number-form .card-number-input {
+  margin: 5px 5px 5px 0;
+}
+.gender-radio {
+  display: flex;
+  align-items: baseline;
+}
+.wallet-balance {
+  display: flex;
+  align-items: baseline;
+}
+.graph-text {
+  text-align: center;
+}
+.graph-text h4 {
+  color: #878a99;
+}
+.graph-text h4 span {
+  color: #000;
+  font-weight: 800;
+}
+/* Scroll to Top  */
+.jsScroll {
+  position: fixed;
+  bottom: 40px;
+  right: -55px;
+  transition: 300ms;
+}
+.visible {
+  right: 30px !important;
+  transition: all 400ms;
+  transform: rotate(360deg);
+}
